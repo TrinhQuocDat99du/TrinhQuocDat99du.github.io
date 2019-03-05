@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch|Noto+Sans|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Monoton|Srisakdi');
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:700');
+
+
+header{background-color: #111111;color: white;font-family: Arial}
+
+* { padding: 0; margin: 0; box-sizing: border-box }
+
+	
+
+header
+{
+	
+	padding: 8px 6px 6px 40px;
+	height: 60px;
+}
+header h1 {
+	display: inline;
+	font-family: 'Noto Sans TC',sans-serif 
+	;font-size: 30px;
+	font-weight: 300; float: left;
+	margin: top 0px;margin: right 20px
+	text-align:center;
+
+
+}
+
+nav ul {
+	display: inline;
+	padding: 0px;
+	float: left;
+	margin-bottom:20px
+}
+nav ul li{
+	display: inline-block;
+	list-style-type:none;
+	color: white;
+	margin-left: 20px
+	}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	margin:left:;
+
+}
+nav ul li a:hover
+{
+	background-color: white;
+	color:black;   
+	border: 4px solid transparent;
+	transition: 0.6s ease;
+}
+
+#nav
+{
+	font-family: 'Chakra Petch', sans-serif;
+}
+
+.yescolor{
+	background-color:#D3D3D3;
+	padding:30px 5px;
+}
+
+.cross{background-color:#FF0000;
+height: 20px;
+}
+
+.introduction
+{
+background-image:url(https://images.unsplash.com/photo-1495470329446-6abd892bb996?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+height: 100vh;
+background-size:cover;
+background-position: center;);
+}
+.open
+{
+	position: absolute;
+	top: 40% ;
+	left: 20%;
+	transform: translate(-50%-50%);
+	font-size: 30px;
+}
+
+.button
+{
+	position: absolute;
+	top: 70% ;
+	left:36%;
+	transform: translate(-50%-50%);
+	font-size: 30px;
+	display: inline;
+	font-color:white;
+	
+}
+.btn{
+	border: 1px solid black;
+	padding: 15px 30px;
+	color: black;
+	text-decoration: none;
+
+}
+.btn:hover/*need to check family-gont*/
+{
+	background-color: black;
+	color:white;
+	border: 4px solid transparent;
+	transition: 0.6s ease;
+	
+}
+
+.class p
+{
+	position: absolute;
+	font-size: 15px;
+	position:center;}
+
+
+}
+.open h1
+{
+font-family: 'Staatliches', cursive;
+font-size:70px;
+color: black;
+}
+p {font-family:font-family: 'Staatliches', cursive;font-size:17px;}
+/* bắt đầu phần slider */
+.sectionMain {padding:5em 0; background: #fff; clear: both; overflow: hidden;}
+.container { width: 1140px; max-width: 100%; margin: 0 auto }
+.sectionMain {padding:5em 0; background: #fff; clear: both; overflow: hidden;}
+
+.labelsection{font-size: 2.5em;color: black;text-transform: uppercase;text-align:center;display: block;font-weight: 500;letter-spacing: 0.2em;margin-bottom:1em;}
+.sectionmain{padding: 3em 0;background: #fff;border: 1px solid #ccc;}
+.sectionwelcome article img {width:600px.height:auto;  }
+.modwelcome article {display: block;clear: both;margin-bottom:19em;}
+/* tao cac part cua mang */
+.modwelcome article .thuart{ display: block;max-height:500px;float: right;  }
+.modwelcome article:nth-child(2n + 1) .thuart{ ;float:left;margin-right: 1em;  }
+.modwelcome article .thuart img{ display: block;max-height:100%;  }
+.modwelcome article h3{font-size: 1.6em;color:black;margin-bottom:1em 0;padding-top: 1.5em;font-family: 'Nanum Gothic', sans-serif;text-transform: uppercase;letter-spacing: 0.2em }
+.modwelcome article p{ margin-bottom: 1.5em;line-height: 1.5em; }
+
+
+
+
+.sectionservices {background-color:	#D3D3D3;}
+.modservices {display: block; overflow: hidden; }
+.modservices li {display: block; float: left; width: 33.33%; padding: 1em;}
+.modservices ul{list-style: none;}
+.servicesCont {text-align: center; padding: 2.2em 1em;}
+.servicesCont > div {background: #D3D3D3; display: inline-block; width: 70px; height: 60px; line-height: 60px; color:black; transition-duration: 0.3s;font-size: 30px;}
+.servicesCont:hover > div {background: #D3D3D3; color:#D3D3D3;border: 4px solid transparent;
+	transition: 0.6s ease;}
+.servicesCont h5 {font-size: 1.2em; color:#000; margin:1em 0;}
+
+
+footer {background-color:white;}
+.mainFooter {padding:3em 0; overflow: hidden;}
+.mainFooter .col {width: 34%; float: left; padding: 0 1em;}
+.mainFooter .col-secon {width:18%;float: right;}
+.mainFooter .col h4 {color: #000; font-size: 1.2em; margin-bottom: 1em;}
+.mainFooter .col p {line-height: 1.4em; margin-bottom: 1em; text-align: justify;}
+.mainFooter .col li {padding: 4px 5px;}
+.mainFooter .col li a {text-decoration: none; font-weight: bold; color: #333;}
+.mainFooter .col li a:hover {color: black;transition: 0.7s ease;}
